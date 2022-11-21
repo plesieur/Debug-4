@@ -10,7 +10,7 @@ namespace Debug_4
             int index = 0;
 
             Console.WriteLine("Hello World!");
-            Console.Write("Input two integers, seperated by a comma:");
+            Console.Write("Input two integers, separated by a comma:");
             string inputString = Console.ReadLine();
             string[] InputToken = inputString.Split(',');
             foreach (string token in InputToken)
